@@ -11,9 +11,10 @@ export const StyledMainView = styled.main`
 
   .heroText {
     font-size: clamp(3.2rem, 5vw, 6.4rem);
+  }
 
-    .yellow {
-      color: var(--yellow);
-    }
+  .tip {
+    font-size: 1.6rem;
+    margin-top: 2rem;
   }
 `;

@@ -26,6 +26,31 @@ const GlobalStyle = createGlobalStyle`
     background-color: var(--black) ;
   }
 
+  .errorMessage {
+    font-size: 1.4rem;
+    margin: 0 2rem 1rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background-color: red;
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  .yellow {
+    color: var(--yellow);
+  }
+
+  .link {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .announcement {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: var(--yellow);
+  }
+
 `;
 
 export default GlobalStyle;

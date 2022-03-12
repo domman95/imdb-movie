@@ -28,22 +28,4 @@ export const StyledSearchBar = styled.form`
       outline: 2px solid var(--yellow);
     }
   }
-
-  button {
-    border: none;
-    background-color: var(--yellow);
-    cursor: pointer;
-    font-size: 1.4rem;
-    padding: 0 2.5rem;
-    border-radius: var(--borderRadius);
-    z-index: 2;
-
-    &:hover {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
-    }
-
-    &:active {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0 0);
-    }
-  }
 `;
