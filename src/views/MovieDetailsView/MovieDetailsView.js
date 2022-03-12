@@ -33,7 +33,7 @@ const MovieDetailsView = () => {
           setMovie(data);
         });
     }
-  }, [movieId]);
+  }, [movieId, ratedMovies]);
 
   const handleChangeRating = (rating) => {
     setStar(rating);
